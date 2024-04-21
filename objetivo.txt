@@ -1,0 +1,32 @@
+Diseñar una página web de turismo (puede ser ficticio) proporcionando información útil sobre diversos destinos turísticos, actividades para hacer, atracciones para visitar y consejos de viaje. Esta página deberá ser creada utilizando únicamente HTML y CSS, y se espera que cumpla con las siguientes pautas:
+
+- *Diseño Responsivo*: El diseño debe ser completamente responsivo, lo que significa que debe ser capaz de adaptarse de manera óptima a una variedad de dispositivos, incluyendo aquellos con pantallas pequeñas de al menos 280 píxeles de ancho. Esto garantiza una experiencia de usuario efectiva en dispositivos móviles y de escritorio.
+
+- *Sin JavaScript*: Aunque JavaScript es una herramienta poderosa para la interactividad en la web, en este proyecto se prohíbe su uso. En lugar de JavaScript, debes confiar en las capacidades de HTML y CSS para crear una experiencia de usuario atractiva y efectiva.
+
+- *Bibliotecas/Frameworks de CSS*: Esta permitido utilizar bibliotecas o frameworks de CSS para agilizar y mejorar el diseño de tu página. Sin embargo, no se permiten pre-procesadores de CSS como SASS o LESS. El uso de bibliotecas de CSS puede ayudarte a lograr estilos visuales atractivos y efectos agradables.
+
+- *Estructura de Páginas*: Tu sitio web debe consistir en un mínimo de 1 (una) y un máximo de 3 (tres) páginas, lo que te dará la oportunidad de presentarte de manera clara y efectiva. Asegúrate de que cada página, si tienes más de una, tenga un propósito definido, ya sea informar sobre características, mostrar testimonios de clientes satisfechos, proporcionar detalles de contacto, o llevar a los visitantes a tomar una acción específica.
+
+- *Estilo y Diseño*: Utiliza CSS para aplicar estilos visuales atractivos, incluyendo colores, fuentes y espaciado adecuados. El diseño debe ser atractivo y coherente en todo tu sitio web.
+
+- *Navegación Sencilla* (solo si tienes más de una página): Diseña una navegación sencilla y coherente que permita a los visitantes moverse fácilmente entre las diferentes páginas de tu sitio.
+
+
+Las condiciones de evaluación serán las siguientes, y en *orden de prioridad*:
+- Entrega en tiempo y forma.
+- Responsive design y adaptabilidad hasta un mínimo de 280px.
+- Organización y arquitectura del proyecto.
+- Accesibilidad.
+- Semántica.
+- Página o páginas intuitivas.
+- Estilos coherentes y atractivos.
+
+
+Fecha y modalidad de entrega:
+- El proyecto debe entregarse antes del Lunes 22/04 - 10:00 hs AM.
+- La entrega será mediante este medio, indicando Nombre y Apellido (en ese orden), y adjuntando un enlace tanto al repositorio en GitHub/GitLab como al proyecto ya desplegado en una plataforma de su agrado (Vercel, Netlify, etc.)
+Ejemplo de entrega:
+- Nombre y Apellido: Joe Doe
+- Link Repositorio: https://github.com/user/example
+- Link Deploy: https://mi-pagina-web.app

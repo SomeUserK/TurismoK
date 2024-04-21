@@ -5,60 +5,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-nav {
-  width: 100vw;
-  position: absolute;
-}
-
-nav ul {
-  list-style: none;
-  border: 1px solid #e00606;
-}
-
-.links-container {
-  display: flex;
-  width: 100%;
-  height: 50px;
-
-  background-color: rgb(218, 132, 19);
-}
-
-.links-list {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
-}
-
-.links-list > li {
-  font-size: 19px;
-
-  transition: background-color 0.5s;
-}
-
-.links-list > li:hover {
-  background-color: rgb(231, 201, 162);
-  cursor: pointer;
-}
-
-.links-list > li > a {
-  text-decoration: none;
-  color: #fff;
-}
-
-@media screen and (width <= 400px) {
-  .links {
-    flex-direction: column;
-  }
-}
-
-#lupa div {
-  width: 30px;
-  height: 30px;
-  background-image: url('../../resources/lupa.png');
-  background-size: cover;
-}
-
-.container {
-  padding-top: 53px;
+body {
+  background-color: aliceblue;
 }
