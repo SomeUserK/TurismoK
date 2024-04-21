@@ -1,25 +1,28 @@
 .nav-container {
-  width: 100%;
+  width: 98vw;
   height: 50px;
   background-color: rgba(123, 245, 245, 0.637);
   position: fixed;
   display: flex;
   box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.808);
 
-  align-items: end;
+  align-items: center;
+  z-index: 1000;
+  /* justify-content: center; */
 }
 
 .nav-container > nav {
   /* display: flex; */
-  width: 60vw;
+  position: absolute;
+  width: 65vw;
   height: 55px;
-  padding-left: 35vw;
+  padding-left: 30vw;
 }
 
 .links-list {
   list-style: none;
   /* width: 100%; */
-  height: 100%;
+  height: 97%;
   display: flex;
 
   align-items: end;
@@ -29,7 +32,7 @@
 .links-list > li {
   font-size: 19px;
   font-weight: 600;
-  padding: 10px;
+  padding: 13px 10px;
   border-radius: 10%;
   justify-content: center;
   margin-top: 0;
@@ -55,12 +58,8 @@
 #lupa div {
   width: 30px;
   height: 30px;
-  background-image: url('../../resources/lupa.png');
+  background-image: url('https://cdn.discordapp.com/attachments/704039264014565516/1231730345834188810/lupa.png?ex=66380546&is=66259046&hm=9b91fa68270e82406acb525ceca6b96f9cc266c9671a691fc2938937c7338b99&');
   background-size: cover;
-}
-
-.container {
-  /* padding-top: 50px; */
 }
 
 #arg-flag {
@@ -68,14 +67,14 @@
   height: 40px;
   background-image: url('https://cdn.discordapp.com/emojis/1052706572519878827.gif?size=96&quality=lossless');
   background-size: cover;
-  margin: 0px 0 0 5vw;
+  margin: 0 0 0 4vw;
 
   overflow: hidden;
 }
 
 @media (width <= 520px) {
   .nav-container {
-    height: 230px;
+    height: 270px;
     align-items: start;
   }
 
@@ -85,6 +84,7 @@
 
   .links-list > li {
     width: fit-content;
+    background-color: rgb(255, 255, 255);
   }
 
   .container {
@@ -92,9 +92,9 @@
   }
 }
 
-@media (width <= 825px) {
+@media (width <= 830px) {
   .nav-container > nav {
-    width: 100vw;
-    padding-left: 0;
+    width: 75vw;
+    padding-left: 15vw;
   }
 }

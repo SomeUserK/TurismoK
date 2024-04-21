@@ -1,11 +1,14 @@
 :root {
-  --first-back-img: url('https://cdn.discordapp.com/attachments/704039264014565516/1231650845523841255/salta-fondo2.jpg?ex=662697bc&is=6625463c&hm=f7e1a2babed4dc4dbfe6e364e6b8be959bbd3fd6a61de6c3cd209f3f4dfcc251&');
-  --second-back-img: url('https://cdn.discordapp.com/attachments/704039264014565516/1231650850712322058/mendoza-fondo1.PNG?ex=6637bb3d&is=6625463d&hm=674e2ff686f721cc46680a644023b369f0c5bdf40ca51790c6952864c50be25a&');
-  --third-back-img: url('https://cdn.discordapp.com/attachments/704039264014565516/1231661314447773756/glaciar-prieto-moreno.png?ex=6626a17c&is=66254ffc&hm=df5e434f255e970dc0c1acec12072ff1d19e76cad0b06fc1fccc151c45c20b10&');
+  --first-back-img: url('https://cdn.discordapp.com/attachments/704039264014565516/1231713160336248972/mendoza.jpg?ex=6637f545&is=66258045&hm=48f21f5544b8bc2d67b5d1131645591f94c9c683ab9bf722df18f0ae3f983159&');
+  --second-back-img: url('https://cdn.discordapp.com/attachments/704039264014565516/1231713160881246268/salta.jpg?ex=6637f545&is=66258045&hm=76ee5f37cac3d4107d2afdb68cf15df40cab1a709c8d6bcab3af105f7eb50b07&');
+  --third-back-img: url('https://cdn.discordapp.com/attachments/704039264014565516/1231713160592097282/glaciar.jpg?ex=6637f545&is=66258045&hm=3f333aa944c8a23b17bfeefd8350886575f8eb8973bc6f6c7d3d48f2c4efbd4a&');
+}
+
+.container {
 }
 
 .first-back {
-  width: 100%;
+  width: 98vw;
   height: 1000px;
   background-size: cover;
 
@@ -71,18 +74,4 @@
   100% {
     background-image: var(--third-back-img);
   }
-}
-
-.news {
-  width: 100%;
-  height: 1000px;
-  background-color: aliceblue;
-
-  display: flex;
-}
-
-.container-botom {
-  width: 100%;
-  height: 200px;
-  background-color: rgba(37, 37, 37, 0.932);
 }

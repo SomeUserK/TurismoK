@@ -8,3 +8,31 @@
 body {
   background-color: aliceblue;
 }
+
+.container-botom {
+  width: 100%;
+  height: 150px;
+  background-color: rgba(37, 37, 37, 0.932);
+}
+
+.container-botom > p {
+  left: 10px;
+  top: 50%;
+  position: relative;
+  color: white;
+  width: 50%;
+}
+
+#copyright > span {
+  color: red;
+}
+
+#contacto {
+  margin-top: 6px;
+  font-weight: bold;
+}
+
+#contacto > span {
+  color: rgb(236, 236, 236);
+  font-weight: 800;
+}
