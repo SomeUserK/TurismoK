@@ -1,7 +1,7 @@
 :root {
-  --first-back-img: url('https://cdn.discordapp.com/attachments/704039264014565516/1231713160336248972/mendoza.jpg?ex=6637f545&is=66258045&hm=48f21f5544b8bc2d67b5d1131645591f94c9c683ab9bf722df18f0ae3f983159&');
-  --second-back-img: url('https://cdn.discordapp.com/attachments/704039264014565516/1231713160881246268/salta.jpg?ex=6637f545&is=66258045&hm=76ee5f37cac3d4107d2afdb68cf15df40cab1a709c8d6bcab3af105f7eb50b07&');
-  --third-back-img: url('https://cdn.discordapp.com/attachments/704039264014565516/1231713160592097282/glaciar.jpg?ex=6637f545&is=66258045&hm=3f333aa944c8a23b17bfeefd8350886575f8eb8973bc6f6c7d3d48f2c4efbd4a&');
+  --first-back-img: url('../../resources/mendoza.jpg');
+  --second-back-img: url('../../resources/salta.jpg');
+  --third-back-img: url('../../resources/glaciar.jpg');
 }
 
 .container {
